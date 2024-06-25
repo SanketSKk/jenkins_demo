@@ -12,6 +12,8 @@ public class JenkinsController {
 	@GetMapping("/v1/jenkins-data")
 	public ResponseEntity<String> getName() {
 		System.out.println("inside data");
+				System.out.println("sample");
+
 
 		return new ResponseEntity<>("Jenkins is Configure and its working", HttpStatus.OK);
 	}
